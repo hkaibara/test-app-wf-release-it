@@ -2,7 +2,9 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
 
   "git": {
-    "requireBranch": "main"
+    "requireBranch": "main",
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}"
   },
 
   "hooks": {
@@ -11,6 +13,17 @@
   },
 
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "v${version}",
+    "releaseNotes": "git log --no-merges --pretty=format:\"* %s %h\" ${latestTag}...master"
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
   }
 }
