@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "release-it": "^18.1.2"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
+}
