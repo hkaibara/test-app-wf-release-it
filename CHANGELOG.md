@@ -1,5 +1,7 @@
 # Changelog
 
+## 1.0.8 (2025-02-13)
+
 ## 1.0.7 (2025-02-13)
 
 ## [1.0.6](https://github.com/hkaibara/test-app-wf-release-it/compare/v1.0.5...v1.0.6) (2025-02-13)
