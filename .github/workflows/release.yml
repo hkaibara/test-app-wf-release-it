@@ -21,9 +21,17 @@ jobs:
 
     - name: Log git status
       run: git status
-
+    - name: What is the event?
+      run: |
+        if [ ${{ github.event_name }} == 'pull_request' ]; then
+          echo "This is a pull request event"
+        elif [ ${{ github.event_name }} == 'push' ]; then
+          echo "This is a push event"
+        else
+          echo "This is an unknown event"
+        fi
     - name: Run release
-      run: |-
+      run: |
         if ["${{github.ref_name}}" == "dev"]; then
           npx release-it --preRelease=alpha --ci
         else
