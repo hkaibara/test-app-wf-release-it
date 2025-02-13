@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - dev
 jobs:
   release:
     runs-on: ubuntu-20.04
@@ -22,6 +23,11 @@ jobs:
       run: git status
 
     - name: Run release
-      run: npx release-it --ci
+      run: |-
+        if ["${{github.ref}}" == 'dev']; then
+          npx release-it --preRelease=alpha --ci
+        else
+          npx release-it --ci
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
