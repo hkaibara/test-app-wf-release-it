@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v1.0.13...v1.1.0) (2025-02-13)
+
+### Features
+
+* changelogs-config4 ([ba1d70c](https://github.com/hkaibara/test-app-wf-release-it/commit/ba1d70cc7bb382420069d57d926f3bcc01a51a1a))
+
 ## [1.0.14](https://github.com/hkaibara/test-app-wf-release-it/compare/v1.0.13...v1.0.14) (2025-02-13)
 
 ## [1.0.13](https://github.com/hkaibara/test-app-wf-release-it/compare/v1.0.11...v1.0.13) (2025-02-13)
