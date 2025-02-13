@@ -2,11 +2,7 @@ name: CLEANUP-BACKMERGE
 on:
   push:
     branches:
-      - main
-    paths:
-      - CHANGELOG.md
-      - package.json
-      - package-lock.json
+      - wala
 
 jobs:
   BackMerge:
