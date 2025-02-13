@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.0 (2025-02-13)
+
+### ⚠ BREAKING CHANGES
+
+* changelogs-config777
+
+### Features
+
+* changelogs-config777 ([6a52611](https://github.com/hkaibara/test-app-wf-release-it/commit/6a5261181b7618c645c36037de6fc5907c9446f0))
+
 ## 1.2.5 (2025-02-13)
 
 ## 1.2.4 (2025-02-13)
