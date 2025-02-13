@@ -6,7 +6,7 @@
   "scripts": {
     "release": "release-it"
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "dependencies": {
     "auto-changelog": "^2.5.0"
   }
