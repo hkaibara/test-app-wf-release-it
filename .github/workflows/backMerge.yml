@@ -15,9 +15,10 @@ jobs:
     - name: Checkout source code
       uses: actions/checkout@v4
       with:
-        ref: dev
+        ref: main
 
     - name: Initialize Git user
       run: |
+        git switch dev
         git rebase origin/main
         
