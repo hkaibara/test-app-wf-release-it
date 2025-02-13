@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.8.0-alpha.4 (2025-02-13)
+
+### Features
+
+* dev pre releases12 ([0e56460](https://github.com/hkaibara/test-app-wf-release-it/commit/0e564606035ed9b47ffb436d8997a7bd7519cbfc))
+
 ## 4.8.0-alpha.3 (2025-02-13)
 
 ### Features
