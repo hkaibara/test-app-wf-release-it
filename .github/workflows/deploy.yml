@@ -1,0 +1,14 @@
+name: deploy
+on: 
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'version to deploy to'
+        required: true
+jobs:
+  release:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git
+        run: |
+          echo ${{ github.event.inputs.tag}}
