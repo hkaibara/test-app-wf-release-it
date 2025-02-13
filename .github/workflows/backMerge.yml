@@ -19,5 +19,5 @@ jobs:
 
     - name: Initialize Git user
       run: |
-        git rebase main
+        git rebase origin/main
         
