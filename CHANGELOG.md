@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.6.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v4.6.0-alpha.0...v4.6.0) (2025-02-13)
+
 ## [4.6.0-alpha.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v4.5.0...v4.6.0-alpha.0) (2025-02-13)
 
 ### Features
