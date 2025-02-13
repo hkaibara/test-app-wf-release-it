@@ -8,5 +8,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Git
         run: |
-          tag= $(git describe --tags --abbrev=0)
+          tag=$(git describe --tags --abbrev=0)
           echo $tag
