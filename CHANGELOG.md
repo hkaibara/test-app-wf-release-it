@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.12.0 (2025-02-13)
+
+### Bug Fixes
+
+* test ([158117a](https://github.com/hkaibara/test-app-wf-release-it/commit/158117a7645ad5e1ba78289243901ef839fa66fc))
+
 ## 4.12.0-alpha.1 (2025-02-13)
 
 ### Features
