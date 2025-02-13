@@ -1,5 +1,4 @@
 name: Release
-# on: workflow_dispatch
 on:
   push:
     branches:
@@ -10,7 +9,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout source code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+
     - name: Install the dependancies
       run: npm ci
 
@@ -19,15 +19,12 @@ jobs:
         git config user.name "GitHub Action Bot"
         git config user.email "<>"
 
-    - name: Log git status
-      run: git status
-
     - name: Run release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         if [ ${{github.ref_name}} == "dev" ]; then
           npx release-it --preRelease=alpha --ci
         else
           npx release-it --ci
         fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
