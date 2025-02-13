@@ -8,8 +8,7 @@
   },
 
   "hooks": {
-    "before:init": ["git pull"],
-    "after:bump": "npx auto-changelog -p"
+    "before:init": ["git pull"]
   },
 
   "github": {
