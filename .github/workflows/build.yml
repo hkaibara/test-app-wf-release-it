@@ -12,9 +12,10 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-  
-      - name: Initialize Git user
+      - name: Git
         run: |
+          git config user.name "GitHub Action Bot"
+          git config user.email "<>"
           git switch dev
           git rebase origin/main
-          
+          git push origin/dev
