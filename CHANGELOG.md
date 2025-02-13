@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.4.0 (2025-02-13)
+
+### Features
+
+* dev pre releases4 ([5fbdba3](https://github.com/hkaibara/test-app-wf-release-it/commit/5fbdba310bc1ecfd55a4a665a8e4e0de7765d933))
+
 ## 4.3.0 (2025-02-13)
 
 ### Features
