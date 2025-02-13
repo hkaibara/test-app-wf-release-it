@@ -35,5 +35,5 @@ jobs:
             https://api.github.com/repos/hkaibara/test-app-wf-release-it/actions/workflows/backMerge.yml/dispatches \
             -d '{"ref":"main"}'
         fi
-        version = 'jq -r '.version' package.json'
+        version=$(jq -r '.version' package.json)
         echo $version
