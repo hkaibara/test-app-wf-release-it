@@ -13,18 +13,15 @@
 
   "github": {
     "release": true,
-    "releaseName": "Production Release : ${version}"
+    "releaseName": "Production: ${version}"
   },
   "npm": {
     "publish": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "infile": "CHANGELOG.md",
-      "header": "# Changelog",
-      "preset": {
-        "name": "conventionalcommits"
-      }
+      "preset": "conventionalcommits",
+      "infile": "CHANGELOG.md"
     }
   }
 }
