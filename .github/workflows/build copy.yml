@@ -1,0 +1,23 @@
+name: CLEANUP-BACKMERGE
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - CHANGELOG.md
+      - package.json
+      - package-lock.json
+
+jobs:
+  BackMerge:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+      with:
+        ref: dev
+
+    - name: Initialize Git user
+      run: |
+        git rebase main
+        
