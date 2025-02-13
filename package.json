@@ -6,8 +6,12 @@
   "scripts": {
     "release": "release-it"
   },
+<<<<<<< HEAD
   "version": "1.0.6",
   "dependencies": {
     "auto-changelog": "^2.5.0"
   }
+=======
+  "version": "1.0.7"
+>>>>>>> 1e7368a6efaf523cc80e4c538a4195aedb69ef75
 }
