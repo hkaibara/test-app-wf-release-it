@@ -22,6 +22,6 @@ jobs:
       run: git status
 
     - name: Run release
-      run: npm run release
+      run: npx release-it --ci
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
