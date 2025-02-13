@@ -2,8 +2,7 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
 
   "git": {
-    "requireBranch": "main",
-    "tagName": "v${version}"
+     "tagName": "v${version}"
   },
 
   "hooks": {
@@ -12,7 +11,7 @@
 
   "github": {
     "release": true,
-    "releaseName": "Production: ${version}"
+    "releaseName": "v${version}"
   },
   "npm": {
     "publish": false

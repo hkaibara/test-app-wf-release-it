@@ -23,8 +23,8 @@ jobs:
       run: git status
 
     - name: Run release
-      run: |-
-        if ["${{github.ref}}" == 'dev']; then
+      run: |
+        if [ ${{github.ref_name}} == "dev" ]; then
           npx release-it --preRelease=alpha --ci
         else
           npx release-it --ci

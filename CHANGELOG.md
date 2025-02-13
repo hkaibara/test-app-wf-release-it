@@ -1,5 +1,73 @@
 # Changelog
 
+## 4.8.0-alpha.3 (2025-02-13)
+
+### Features
+
+* dev pre releases11 ([fda8461](https://github.com/hkaibara/test-app-wf-release-it/commit/fda846166a6ee2b48d183114eefe7cb9a17cee4b))
+
+## 4.8.0-alpha.2 (2025-02-13)
+
+### Features
+
+* dev pre releases10 ([b3309b5](https://github.com/hkaibara/test-app-wf-release-it/commit/b3309b52920353f0a8e0e2aff9cf50b6ec1e12e6))
+
+## 4.8.0-alpha.1 (2025-02-13)
+
+### Features
+
+* dev pre releases9 ([edee4cb](https://github.com/hkaibara/test-app-wf-release-it/commit/edee4cbe75c25ec08f7a7ffd9c950156f83efc3a))
+
+## 4.8.0-alpha.0 (2025-02-13)
+
+### Features
+
+* dev pre releases8 ([e5725a6](https://github.com/hkaibara/test-app-wf-release-it/commit/e5725a6bcc20d722d5e53e04ac8637431af1f392))
+
+## 4.7.0 (2025-02-13)
+
+### Features
+
+* dev pre releases7 ([ec201b3](https://github.com/hkaibara/test-app-wf-release-it/commit/ec201b3fc513ce533b197bed9281d2762efee0e8))
+
+## [4.6.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v4.6.0-alpha.0...v4.6.0) (2025-02-13)
+
+## [4.6.0-alpha.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v4.5.0...v4.6.0-alpha.0) (2025-02-13)
+
+### Features
+
+* dev pre releases6 ([ceee7e3](https://github.com/hkaibara/test-app-wf-release-it/commit/ceee7e340a23d1c73bc8ecd31894b667701c364f))
+
+## 4.5.0 (2025-02-13)
+
+### Features
+
+* dev pre releases5 ([83abf20](https://github.com/hkaibara/test-app-wf-release-it/commit/83abf20f2143eb35600c081e07fb0ee997472124))
+
+## 4.4.0 (2025-02-13)
+
+### Features
+
+* dev pre releases4 ([5fbdba3](https://github.com/hkaibara/test-app-wf-release-it/commit/5fbdba310bc1ecfd55a4a665a8e4e0de7765d933))
+
+## 4.3.0 (2025-02-13)
+
+### Features
+
+* dev pre releases3 ([24725fd](https://github.com/hkaibara/test-app-wf-release-it/commit/24725fd9c0b4acba17ae34c3616d296151ec47d0))
+
+## 4.2.0 (2025-02-13)
+
+### Features
+
+* dev pre releases3 ([e2dfbc4](https://github.com/hkaibara/test-app-wf-release-it/commit/e2dfbc4b6b603510d15e7a435e36510de7b62231))
+
+## 4.1.0 (2025-02-13)
+
+### Features
+
+* dev pre releases2 ([3172fab](https://github.com/hkaibara/test-app-wf-release-it/commit/3172fab49187367109c12f841ee5236b1cde8ce3))
+
 ## 4.0.0 (2025-02-13)
 
 ### ⚠ BREAKING CHANGES
