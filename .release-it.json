@@ -10,8 +10,7 @@
   },
 
   "github": {
-    "release": true,
-    "releaseName": "Production: ${version}"
+    "release": true
   },
   "npm": {
     "publish": false
