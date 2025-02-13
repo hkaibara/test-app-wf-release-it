@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.18.0 (2025-02-13)
+
+### Features
+
+* versioning for builds1 ([cd681cc](https://github.com/hkaibara/test-app-wf-release-it/commit/cd681cc6d1f9ff996eee365c459a7494a063b85e))
+
 ## 4.17.0 (2025-02-13)
 
 ### Features
