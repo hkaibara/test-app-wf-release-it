@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 (2025-02-13)
+
+### Features
+
+* changelogs-config5 ; gitpush origin main ([0581790](https://github.com/hkaibara/test-app-wf-release-it/commit/05817903a92c62fb59e23b8b0de33799448e8934))
+
 ## [1.1.0](https://github.com/hkaibara/test-app-wf-release-it/compare/v1.0.13...v1.1.0) (2025-02-13)
 
 ### Features
