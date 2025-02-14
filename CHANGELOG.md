@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.0.0-beta.0 (2025-02-14)
+
+### ⚠ BREAKING CHANGES
+
+* Test breaking changes
+
+### Features
+
+* Test breaking changes ([4068ee2](https://github.com/hkaibara/test-app-wf-release-it/commit/4068ee2eb3b312deb434dbff376249c464d54ec3))
+
 ## 4.18.7 (2025-02-14)
 
 ## 4.18.7-rc.0 (2025-02-14)
