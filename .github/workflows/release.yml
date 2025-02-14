@@ -26,7 +26,7 @@ jobs:
       run: |
         if [ ${{github.ref_name}} == "dev" ]; then
           npx release-it --preRelease=rc --ci
-        elif [${{startsWith(github.ref_name, 'feature/') == 'true'}}]; then
+        elif [${{startsWith(github.ref_name, 'feature/')}} == "true"]; then
           npx release-it --preRelease=beta --ci
         else
           npx release-it --ci
