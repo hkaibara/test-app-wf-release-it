@@ -24,12 +24,12 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        if [ ${{github.ref_name}} == "dev" ]; then
-          npx release-it --preRelease=rc --ci
-        elif [${{startsWith(github.ref_name, 'feature/')}} == true]; then
-          npx release-it --preRelease=beta --ci
-        else
+        if [ ${{github.ref_name}} == 'main' ]; then
           npx release-it --ci
+        elif [ ${{github.ref_name}} == 'dev' ]; then
+          npx release-it --preRelease=rc --ci
+        else
+          npx release-it --preRelease=beta --ci
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
