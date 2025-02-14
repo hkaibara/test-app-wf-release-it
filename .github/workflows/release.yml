@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+      - feature/**
 jobs:
   release:
     runs-on: ubuntu-20.04
@@ -24,7 +25,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         if [ ${{github.ref_name}} == "dev" ]; then
-          npx release-it --preRelease=alpha --ci
+          npx release-it --preRelease=rc --ci
+        elseif ${{startsWith(github.ref_name, 'feature/')}}; then
+          npx release-it --preRelease=beta --ci
         else
           npx release-it --ci
           curl -L \
