@@ -1,5 +1,7 @@
 # Changelog
 
+## 5.0.0-rc.0 (2025-02-14)
+
 ## 5.0.0-beta.0 (2025-02-14)
 
 ### ⚠ BREAKING CHANGES
