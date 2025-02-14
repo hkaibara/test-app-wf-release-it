@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.18.7-beta.0 (2025-02-14)
+
+### Bug Fixes
+
+* workflows ([ed2377f](https://github.com/hkaibara/test-app-wf-release-it/commit/ed2377f8111f1fb3a6859172f3f66bfe8d1dda5e))
+
 ## 4.18.6 (2025-02-14)
 
 ### Bug Fixes
